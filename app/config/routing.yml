@@ -1,0 +1,3 @@
+avedblog:
+    resource: "@AvedBlogBundle/Resources/config/routing.yml"
+    prefix:   /
