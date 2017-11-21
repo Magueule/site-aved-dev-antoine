@@ -1,0 +1,43 @@
+avedblog_homepage:
+    path:     /
+    defaults: { _controller: AvedBlogBundle:Default:index }
+
+avedblog_eventpage:
+    path:     /events
+    defaults: { _controller: AvedBlogBundle:Default:event}
+
+avedblog_galeriepage:
+    path:     /galerie
+    defaults: { _controller: AvedBlogBundle:Default:galerie}
+
+avedblog_contactpage:
+    path:     /contact
+    defaults: { _controller: AvedBlogBundle:Default:contact}
+
+avedblog_campuspage:
+    path:     /campus
+    defaults: { _controller: AvedBlogBundle:Default:campus}
+
+avedblog_tropheedtpage:
+    path:     /trophee2013
+    defaults: { _controller: AvedBlogBundle:Default:tropheedt}
+
+avedblog_tropheedqpage:
+    path:     /trophee2014
+    defaults: { _controller: AvedBlogBundle:Default:tropheedq}
+
+avedblog_pimpmdpage:
+    path:     /pimpmydescartes
+    defaults: { _controller: AvedBlogBundle:Default:pimpmd}
+
+avedblog_mappage:
+    path:     /map
+    defaults: { _controller: AvedBlogBundle:Default:map}
+
+avedblog_ecolespage:
+    path:     /lesecoles
+    defaults: { _controller: AvedBlogBundle:Default:ecoles}
+
+avedblog_associationspage:
+    path:     /lesassociations
+    defaults: { _controller: AvedBlogBundle:Default:associations}

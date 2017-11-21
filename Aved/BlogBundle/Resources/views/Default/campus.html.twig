@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<section class="light_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="side-item">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="item-media">
+                                <img src="{{ asset('example/team/03.jpeg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="item-content right">
+                                <h2>Campus Descartes</h2>
+                                <p>
+                                    Duis autem eumre dolor hendrerit vulputate vesse molestie consequat illum doloraeu feugiat nulla facilisis at vero eros accumsan et iusto odio dignissim. Qlandit praesent luptatum zzril delenit augue duis dolore feugait nulla facilisi. Diam nonummy aliquam erat volutpat duis autem eumre dolor hendrerit vulputate velit esse molestie.
+                                </p>
+                                <div class="border-paragraphs">
+                                    <p> <i class="highlight rt-icon-book2"></i> <strong><a href="{{ path('avedblog_ecolespage') }}">Des écoles</a></strong>
+                                    </p>
+                                    <p> <i class="highlight rt-icon-users"></i> <strong><a href="{{ path('avedblog_associationspage') }}">Des Associations</a></strong>
+                                    </p>
+                                </div>
+                                <p>
+                                    <a class="socialico-facebook" href="https://www.facebook.com/AVEDescartes?fref=ts" title="Facebook" data-toggle="tooltip"></a><a href="https://www.facebook.com/AVEDescartes?fref=ts">Page Facebook</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
